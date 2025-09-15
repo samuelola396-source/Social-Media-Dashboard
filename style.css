@@ -1,0 +1,151 @@
+.body{
+    background-color: #1e212a;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition-property: all;
+    transition-duration: 0.8s;    
+}
+
+.app{
+    margin: 23px 125px;
+}
+
+.toggle-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/*Toogle Button Styles*/
+.con{
+    width: 35px;
+    height: 20px;
+    padding: 4px;
+    background-color: #1eb38b;
+    border-radius: 15px;       
+} .con:hover{
+    cursor: pointer;
+}
+
+.tog{
+    width: 18px;
+    height: 18px;
+    background-color: #1e212a;
+    border-radius: 18px;
+    margin: 1px;
+    float: right;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.card{
+    width: 200px;
+    height: auto;
+    padding: 45px 25px 35px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 4px solid;
+    border-radius: 6px;
+    background-color: #252c44;    
+}
+
+
+.social{
+    display: flex;
+}
+
+.social-logo{
+    width: 22px;
+    height: 22px;
+}
+
+.handle{
+    color: rgb(101, 139, 196);
+    margin-bottom: 3px;
+}
+
+.followers{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.arrow{
+    font-weight: bold;
+}
+
+/* Overview */
+.overview{
+    height: 200px; 
+    flex-wrap: wrap; 
+    align-content: space-around; 
+    margin: auto;
+    padding-bottom: 150px;
+}
+
+.overview-card{
+    margin: 10px;
+    padding: 20px 25px;
+}
+
+.overview-card-part{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px;
+}
+
+
+
+
+/* Light Mode Styles */
+
+/* Toggle Button Change */
+.toggle-left{
+    background-color: white;
+    float: left;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.con-light{
+    background-color: rgb(216, 212, 212);
+    transition-property: all;
+    transition-duration: 0.8s;
+}
+
+.body-light{
+    color: black;
+    background-color: white;
+    transition-property: all;
+    transition-duration: 0.8s;
+}
+
+
+.card-light{
+    background-color: whitesmoke;
+    transition-property: all;
+    transition-duration: 0.8s;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+
+    .app{
+        margin: 15% 10%;
+    }
+    .cards, .overview{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: stretch;
+    }
+    .card{
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+}
