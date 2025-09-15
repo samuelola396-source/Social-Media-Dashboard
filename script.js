@@ -12,7 +12,7 @@ class Social{
     }
 }
 
-const facebook = new Social("rgba(56, 137, 203, 0.8);", "facebook.png", "@nathanf", 1987, "&utrif;", 12, "rgb(80, 200, 120)")
+const facebook = new Social("rgba(56, 137, 203, 0.8);", "facebook.png", "@nathanf", 1997, "&utrif;", 12, "rgb(80, 200, 120)")
 const x = new Social("rgb(0, 108, 255);", "x.png", "@nathanf", 1044, "&utrif;", 99, "rgb(80, 200, 120)");
 const instagram = new Social("hotpink", "instagram.png", "@realnathanf", 11000, "&utrif;", 1099, "rgb(80, 200, 120)");
 const youtube = new Social("rgb(237, 41, 81)", "youtube.png", "@Nathan F.", 8239, "&dtrif;", 144, "rgb(237, 41, 81)");
