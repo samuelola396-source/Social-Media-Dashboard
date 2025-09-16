@@ -53,7 +53,8 @@
     border-radius: 6px;
     background-color: #252c44;    
 } .card:hover{
-    background-color: #505c83;    
+    background-color: #3e4764;  
+    cursor: pointer;  
 }
 
 
