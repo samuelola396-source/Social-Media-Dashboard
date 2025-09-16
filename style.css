@@ -21,7 +21,7 @@
     width: 35px;
     height: 20px;
     padding: 4px;
-    background-color: #1eb38b;
+    background-color: red;
     border-radius: 15px;       
 } .con:hover{
     cursor: pointer;
