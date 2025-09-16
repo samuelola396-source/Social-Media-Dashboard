@@ -146,7 +146,8 @@
     .cards, .overview{
         display: flex;
         flex-direction: column;
-        
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .card, .overview-card{
