@@ -39,6 +39,7 @@
 .cards{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     margin-top: 60px;
 }
 
@@ -150,7 +151,7 @@
     .card, .overview-card{
         margin: 0;
         margin-bottom: 10%;
-        width: 80%;
+        width: 100%;
     }
     .overview{
         flex-wrap: nowrap;
