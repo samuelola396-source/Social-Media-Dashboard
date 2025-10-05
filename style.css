@@ -135,7 +135,7 @@
     background-color: whitesmoke;
     transition-property: all;
     transition-duration: 0.8s;
-}.card-light:hover .followers{
+}.card-light:hover{
     background-color: #E5E5EA;
 }
 
