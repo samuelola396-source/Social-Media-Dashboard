@@ -136,7 +136,7 @@
     transition-property: all;
     transition-duration: 0.8s;
 }.card-light:hover .followers{
-    color: white;
+    background-color: #E5E5EA;
 }
 
 /* Responsiveness */
